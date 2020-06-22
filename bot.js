@@ -38,10 +38,10 @@ client.on("message", message => {
             });
             const AziRo = new Discord.RichEmbed()
             .setAuthor(message.author.username, message.author.avatarURL)   
-            .setTitle('✅| جاري ارسال رسالتك ') 
+            .setTitle('✅| Your message is being sent ') 
             .addBlankField(true)
-            .addField('♨| عدد الاعضاء المرسل لهم ', message.guild.memberCount , true)        
-            .addField('📝| الرسالة ', args)
+            .addField('♨| The number of members sent to them', message.guild.memberCount , true)        
+            .addField('📝| Massege ', args)
             .setColor('RANDOM')  
             message.channel.sendEmbed(AziRo);          
         }
@@ -52,4 +52,4 @@ client.on("message", message => {
 
 
 
-client.login("توكن البوت");
+client.login("NzA1ODg1MDc4NDYyMzk4NTA2.XvE0oA.llqrx0gCcAm7kT_HE8iFmJXqnFs");
